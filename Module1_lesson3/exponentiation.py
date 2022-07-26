@@ -1,8 +1,7 @@
 def calculateExponent():
     # Exponentiation Calculator
     print("Exponentiation Calculator")
-    print("                                                   _____  ")
-    print("----- '\'    '/' ----- ----- |     | ----- |     |   |    |")
+
 
     x = int(input("Enter a value for x: "))
     y = int(input("Enter a value for y: "))
