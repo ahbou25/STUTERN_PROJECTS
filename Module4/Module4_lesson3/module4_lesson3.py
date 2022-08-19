@@ -57,5 +57,3 @@ print("New column added successfully!")
 #Updating new column age with details
 cursor.execute ("UPDATE group_info SET Age = '33'")
 conn. commit()
-
-
