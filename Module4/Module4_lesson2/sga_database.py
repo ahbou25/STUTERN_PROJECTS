@@ -70,7 +70,8 @@ all_students = [
                     ('Victoria', 'Chukwuno',	'chukwunovictoria@gmail.com', 'Data Science')
                 ]
 
-cursor.executemany(
+cursor.executemany
+(
 """
 INSERT INTO stuttern__students(first_name, last_name, email_address, course) 
 VALUES (?,?,?,?)
