@@ -2,7 +2,7 @@ import sqlite3
 #print("imported successfully")
 
 #Connect to a database
-conn = sqlite3.connect("sales_db")
+conn = sqlite3.connect("sales.db")
 print("connected successfully")
 
 # Create a cursor object
